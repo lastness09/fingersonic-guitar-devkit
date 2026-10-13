@@ -14,6 +14,7 @@ Download the entire kit with GitHub's **Code → Download ZIP**, or clone this r
 | [Optional app protocol](docs/developer/APP_INTERACTION.md) | Settings, chord symbols, custom chords, follow targets and receipts |
 | [SoundFont guide](docs/developer/SOUNDFONT.md) | Exact guitar/drum/piano presets, Lead roles and replacement compatibility |
 | [Public API examples](docs/developer/EXAMPLES.md) | Arduino/Adafruit/IDF snippets without manufacturer-private source dependencies |
+| [FM Studio reference firmware](examples/main2/README.md) | Complete open-source main2 App0: FM synthesis, a five-track groovebox, UI, NVS, build scripts and host tests |
 | [Dependencies](docs/developer/DEPENDENCIES.md) | Public libraries, versions and installation |
 | [GPIO table](PCB_GPIO_Pinout.md) · [CSV](PCB_GPIO_Pinout.csv) | Wiring and MPR121 electrode mapping |
 | [Partition CSV](docs/developer/partitions.csv) | App0 compilation layout; not a system flashing image |
@@ -27,6 +28,8 @@ Windows/macOS users can use [FingersonicUploader](https://fingersonic.net/blogs/
 The included recovery bank has five guitars at Bank 0/Programs 0–4, Standard Kit at Bank 128/Program 0, and Piano at Bank 128/Program 1. It restores sounds only; recovering App0 requires a matching default application BIN from the manufacturer.
 
 This kit does not include private manufacturer firmware source or system images. App integration is optional; third-party applications can use the published hardware interfaces independently.
+
+The [FM Studio main2 example](examples/main2/README.md) provides a complete reference application under Apache License 2.0, with its bundled DaisySP subset retaining the MIT license. It can be built and modified independently of the default instrument firmware.
 
 ## Support and contact
 

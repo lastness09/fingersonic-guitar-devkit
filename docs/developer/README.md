@@ -8,7 +8,7 @@ Firmware updates target App0 only. SF2 sound resources can also be replaced. All
 
 ![Slider electrodes and gestures](assets/sliders-electrodes.png)
 
-Start with the GPIO/electrode map, integrate the public API snippets, verify inputs/power, then add audio and UI. The examples explain interfaces and require integration into your own project.
+Start with the GPIO/electrode map, integrate the public API snippets, verify inputs/power, then add audio and UI. The API snippets require integration into your own project; FM Studio main2 provides a complete buildable reference application.
 
 | Resource | Purpose |
 |---|---|
@@ -16,6 +16,7 @@ Start with the GPIO/electrode map, integrate the public API snippets, verify inp
 | [GPIO CSV](../../PCB_GPIO_Pinout.csv) | Machine-readable wiring/electrode table |
 | [Dependency versions](DEPENDENCIES.md) | Public Arduino/IDF library baseline |
 | [API examples](EXAMPLES.md) | ADC, MPR121, I2S, TFT and App1 entry |
+| [FM Studio main2](../../examples/main2/README.md) | Buildable open-source FM synthesizer/groovebox reference application |
 | [Optional app protocol](APP_INTERACTION.md) | Symbols, settings, custom chords, follow and receipts |
 | [SF2 guide](SOUNDFONT.md) | Guitar/drum/piano layout, Lead roles and replacement rules |
 | [Recovery bank](../../recovery/README.md) | Fingersonic_Gtr_H.sf2 and checksum |

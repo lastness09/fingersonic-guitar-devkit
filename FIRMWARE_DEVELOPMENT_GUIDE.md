@@ -481,6 +481,8 @@ Use monotonic time and deadlines for gestures, holds and bend ramps. Do not bloc
 
 ## 22. Public API examples
 
+For a complete buildable application, see [FM Studio main2](examples/main2/README.md). Its open-source App0 combines FM synthesis, a five-track sequencer, inputs, battery/standby handling, display, RMT LEDs, independent NVS storage and entry to the existing App1. The example includes build instructions, public dependencies, licensing and optional host tests. Its control mappings, 32 kHz audio and power hysteresis are described in its own README.
+
 [Examples](docs/developer/EXAMPLES.md) use public Arduino/Adafruit libraries and standard IDF drivers: ADC locking/calibrated voltage, MPR121 thresholds/masks, I2S blocks, ST7735S initialization and selection of the existing App1. Integrate the snippets into your own setup/loop or app_main and handle errors; they are not complete firmware.
 
 Suggested application organization:

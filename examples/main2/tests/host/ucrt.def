@@ -1,0 +1,13 @@
+LIBRARY ucrtbase.dll
+EXPORTS
+ sinf
+ floorf
+ powf
+ expf
+ logf
+ fmaxf
+ fminf
+ memcpy
+ memset
+ strlen
+ __stdio_common_vsprintf
