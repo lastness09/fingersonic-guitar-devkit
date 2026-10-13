@@ -32,6 +32,7 @@ Turn Fingersonic into a groovebox, synthesizer, sampler, music player, MIDI cont
 - [24. Publishing third-party firmware](#24-publishing-third-party-firmware)
 - [25. Project ideas](#25-project-ideas)
 - [26. Optional app integration and chord symbols](#26-optional-app-integration-and-chord-symbols)
+- [27. Support and contact](#27-support-and-contact)
 
 ## 1. Development boundary
 
@@ -575,3 +576,12 @@ Playback accepted: PLAYED|CHORD=Dm7|PATTERN=PATTERN_4_4|BEATS=4.00|BPM=100
 RECEIVED means a valid target was installed. PLAYED means a performance/automatic-play request was accepted, not that all audio has finished. Exact six-string frets use VOICING, in String 6→1 order; otherwise the symbol defines chord intervals/bass rather than a unique guitar fingering.
 
 App integration remains optional. **Wi-Fi upload boundaries remain unchanged: App0 firmware and SF2 resources only.** Declare supported groups, chord qualities and voicing versions so users know which app features work.
+
+## 27. Support and contact
+
+For Fingersonic hardware, recovery files and platform questions:
+
+- Website: [Fingersonic.net](https://fingersonic.net/)
+- Support email: [support@fingersonic.net](mailto:support@fingersonic.net)
+
+When requesting technical help, include your hardware revision if known, App0 version, toolchain version and a concise description of the issue. Third-party firmware authors can also publish their own maintainer contact in their release notes.

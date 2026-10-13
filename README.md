@@ -27,3 +27,10 @@ Windows/macOS users can use [FingersonicUploader](https://fingersonic.net/blogs/
 The included recovery bank has five guitars at Bank 0/Programs 0–4, Standard Kit at Bank 128/Program 0, and Piano at Bank 128/Program 1. It restores sounds only; recovering App0 requires a matching default application BIN from the manufacturer.
 
 This kit does not include private manufacturer firmware source or system images. App integration is optional; third-party applications can use the published hardware interfaces independently.
+
+## Support and contact
+
+For Fingersonic hardware, recovery files and platform questions:
+
+- Website: [Fingersonic.net](https://fingersonic.net/)
+- Support email: [support@fingersonic.net](mailto:support@fingersonic.net)
