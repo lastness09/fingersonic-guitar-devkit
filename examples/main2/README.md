@@ -1,4 +1,6 @@
-# Fingersonic FM Studio — main2
+# Fingersonic FM Studio — main2 Reference/Test Example
+
+**For developer reference and testing only. main2 is not official Fingersonic Guitar firmware and is not an official recovery image.** It demonstrates how to build an App0 application using the published hardware interfaces.
 
 An open-source App0 reference application for Fingersonic Guitar: a playable FM synthesizer, five-track groovebox and on-device sound editor. Use it to learn the hardware interfaces or build your own instrument.
 
@@ -130,7 +132,9 @@ User firmware replaces **App0 only** through the preinstalled App1 Wi-Fi uploade
 curl --fail -F 'file=@./build/main2.ino.bin' http://192.168.4.1/upload
 ```
 
-To return to the default instrument, upload its matching manufacturer-supplied App0 application BIN through App1. FM Studio leaves the existing SF2 resources in place. The [recovery SF2](../../recovery/README.md) is available if the sound bank itself also needs restoring.
+To return to the official Fingersonic Guitar experience, use the [official firmware and sound-bank recovery tool](http://update.fingersonic.cn/FingersonicGuitarUploader/). Prepare the official file while connected to the Internet, then enter App1 and join its hotspot to upload it. Follow the [complete recovery steps](../../recovery/README.md#return-to-the-official-instrument).
+
+Official App0 restores the instrument behavior. The official SF2 can be restored separately if you replaced its sounds. FM Studio leaves the existing SF2 in place, so returning from main2 normally needs only official App0. **The main2 application BIN is for testing this example; use the official recovery tool when restoring the official instrument.**
 
 ## Code structure
 

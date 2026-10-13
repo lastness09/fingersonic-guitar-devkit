@@ -1,6 +1,23 @@
-# Recovery SoundFont
+# Official Firmware and Sound Bank Recovery
 
 This folder includes **Fingersonic_Gtr_H.sf2**, the recovery sound bank supplied with this documentation package. Upload it through the existing App1 Wi-Fi uploader to restore the guitar, drum and piano sound resources.
+
+## Return to the official instrument
+
+After experimenting with reference or third-party firmware, return to the original Fingersonic Guitar experience with the **[official firmware and sound-bank recovery tool](http://update.fingersonic.cn/FingersonicGuitarUploader/)**.
+
+**main2/FM Studio is a reference and test example, not official product firmware or an official recovery image.** Restoring official App0 brings back the official instrument behavior; restoring SF2 brings back its sounds. These are separate uploads.
+
+1. Connect your computer or phone to a normal Internet connection and open the official tool. Select **Firmware Update** and wait until the selected official file is ready. Keep the page open.
+2. Enter preinstalled App1: disconnect charging power, turn off, hold the encoder, then turn on and keep holding until Burn Mode appears.
+3. Join **Fingersonic**, password **88888888**. Complete the page's confirmations, start the upload and wait for the device to finish and restart.
+4. If you changed the sound bank, reconnect to the Internet, select **Official SoundFont** and wait for it to be ready. Re-enter App1, rejoin its hotspot and upload the sound bank. Wait for restart again.
+
+Prepare each file before switching to the device hotspot, which does not provide Internet access. If file preparation fails, reconnect to your normal network and retry there. Check the device after each upload rather than treating a connection loss alone as proof of recovery.
+
+main2 itself leaves the existing SF2 in place, so returning from that example normally requires only official App0 restoration. Keep App1, the bootloader and the partition layout intact. Your application and sound-bank replacements both use App1 Wi-Fi.
+
+## Included offline recovery bank
 
 | Property | Value |
 |---|---|
@@ -35,7 +52,7 @@ sha256sum ./recovery/Fingersonic_Gtr_H.sf2
 
 Replacing an SF2 bank removes the previous SF2 resources. An interrupted upload may require uploading this recovery file again. Other settings and custom-chord data are normally retained.
 
-This file restores **sound resources only**. It does not restore or replace App0 firmware. If App0 itself needs recovery, obtain the matching default App0 application BIN from the manufacturer and upload that BIN through the same Wi-Fi workflow. App1, the bootloader and the partition table remain manufacturer-managed.
+This file restores **sound resources only**. It does not restore or replace App0 firmware. Use the [official recovery tool](http://update.fingersonic.cn/FingersonicGuitarUploader/) above to restore official App0. App1, the bootloader and the partition table remain manufacturer-managed.
 
 ## Presets in the supplied recovery bank
 

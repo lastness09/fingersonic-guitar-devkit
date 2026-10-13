@@ -402,7 +402,11 @@ App1 stages a BIN in LittleFS, writes App0, validates it and selects App0 for re
 
 If no upload begins, App1 returns to App0 after approximately 5 min. A disconnect or incomplete response does not prove success. Re-enter App1 to verify/retry. App1 does not retain a backup of old App0; keep the matching default App0 application BIN separately.
 
-The package includes [Fingersonic_Gtr_H.sf2](recovery/Fingersonic_Gtr_H.sf2) and [sound-bank recovery instructions](recovery/README.md). Uploading SF2 removes the old SF2 resources to free space. An interrupted upload may require uploading a valid bank again. The included SF2 restores sounds only; default App0 firmware recovery requires the manufacturer-supplied application BIN.
+To return to the official instrument after trying third-party firmware, use the **[official firmware and sound-bank recovery tool](http://update.fingersonic.cn/FingersonicGuitarUploader/)**. Prepare the selected file on your normal Internet connection before switching to the App1 hotspot. Official App0 and the official SF2 are separate upload targets; see the [recovery steps](recovery/README.md#return-to-the-official-instrument).
+
+**main2/FM Studio is a reference/test example, not official product firmware or an official recovery image.** Its BIN demonstrates the example application; use the official recovery tool to return to official behavior.
+
+The package also includes [Fingersonic_Gtr_H.sf2](recovery/Fingersonic_Gtr_H.sf2) for offline sound-bank recovery. Uploading SF2 removes old SF2 resources to free space. An interrupted upload may require uploading a valid bank again. The included SF2 restores sounds only; official App0 is restored separately.
 
 ## 18. Arduino development
 
@@ -481,7 +485,7 @@ Use monotonic time and deadlines for gestures, holds and bend ramps. Do not bloc
 
 ## 22. Public API examples
 
-For a complete buildable application, see [FM Studio main2](examples/main2/README.md). Its open-source App0 combines FM synthesis, a five-track sequencer, inputs, battery/standby handling, display, RMT LEDs, independent NVS storage and entry to the existing App1. The example includes build instructions, public dependencies, licensing and optional host tests. Its control mappings, 32 kHz audio and power hysteresis are described in its own README.
+For a complete buildable reference/test application, see [FM Studio main2](examples/main2/README.md). **It is not official Fingersonic Guitar firmware or an official recovery image.** Its open-source App0 combines FM synthesis, a five-track sequencer, inputs, battery/standby handling, display, RMT LEDs, independent NVS storage and entry to the existing App1. The example includes build instructions, public dependencies, licensing and optional host tests. Its control mappings, 32 kHz audio and power hysteresis are described in its own README.
 
 [Examples](docs/developer/EXAMPLES.md) use public Arduino/Adafruit libraries and standard IDF drivers: ADC locking/calibrated voltage, MPR121 thresholds/masks, I2S blocks, ST7735S initialization and selection of the existing App1. Integrate the snippets into your own setup/loop or app_main and handle errors; they are not complete firmware.
 

@@ -16,10 +16,11 @@ Start with the GPIO/electrode map, integrate the public API snippets, verify inp
 | [GPIO CSV](../../PCB_GPIO_Pinout.csv) | Machine-readable wiring/electrode table |
 | [Dependency versions](DEPENDENCIES.md) | Public Arduino/IDF library baseline |
 | [API examples](EXAMPLES.md) | ADC, MPR121, I2S, TFT and App1 entry |
-| [FM Studio main2](../../examples/main2/README.md) | Buildable open-source FM synthesizer/groovebox reference application |
+| [FM Studio main2](../../examples/main2/README.md) | Buildable reference/test example; not official product firmware |
 | [Optional app protocol](APP_INTERACTION.md) | Symbols, settings, custom chords, follow and receipts |
 | [SF2 guide](SOUNDFONT.md) | Guitar/drum/piano layout, Lead roles and replacement rules |
 | [Recovery bank](../../recovery/README.md) | Fingersonic_Gtr_H.sf2 and checksum |
+| [Official recovery tool](http://update.fingersonic.cn/FingersonicGuitarUploader/) | Return to official App0 and sounds after testing third-party applications |
 | [Partition CSV](partitions.csv) | App0 compile configuration only |
 | [Release checklist](RELEASE_CHECKLIST.md) | Third-party release/validation recommendations |
 | [Diagram assets](assets) | Six PNG/SVG pairs; PNG for reading, SVG for editing |

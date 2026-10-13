@@ -116,7 +116,9 @@ Use [FingersonicUploader](https://fingersonic.net/blogs/apps/fingersonicuploader
 
 Uploading SF2 removes old SF2 resources to free space. Other settings/custom-chord files are normally kept. An interrupted upload may leave the old bank unavailable; upload a valid bank again.
 
-For recovery, select [recovery/Fingersonic_Gtr_H.sf2](../../recovery/Fingersonic_Gtr_H.sf2). See the [recovery instructions](../../recovery/README.md). This restores sound resources only. Default App0 firmware must be obtained and restored separately if required.
+To return to official firmware and sounds, use the [official recovery tool](http://update.fingersonic.cn/FingersonicGuitarUploader/) and follow the [recovery instructions](../../recovery/README.md#return-to-the-official-instrument). Prepare each file on your normal Internet connection before joining the device hotspot. Official App0 and SF2 are separate uploads. main2 is a developer reference/test example, not official product firmware.
+
+The included [recovery/Fingersonic_Gtr_H.sf2](../../recovery/Fingersonic_Gtr_H.sf2) provides offline sound-resource recovery only; official App0 restoration is a separate operation.
 
 ## 8. Linux and custom upload clients
 
