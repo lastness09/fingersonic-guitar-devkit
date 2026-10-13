@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1060" viewBox="0 0 1600 1060" role="img"><title>05  Flash Layout and Update Boundaries</title><desc>Only App0 firmware and SF2 resources are user upload targets. Other system images remain manufacturer-managed.</desc><rect width="100%" height="100%" fill="white"/>
+<text x="44" y="25" dominant-baseline="text-before-edge" fill="#172c45" font-size="36" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">05  Flash Layout and Update Boundaries</text>
+<text x="44" y="80" dominant-baseline="text-before-edge" fill="#526780" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Only App0 firmware and SF2 resources are user upload targets. Other system images remain manufacturer-managed.</text>
+<text x="60" y="169" dominant-baseline="text-before-edge" fill="#526780" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0x000000</text>
+<rect x="245" y="150" width="1280" height="80" rx="12" fill="#f3f7fb" stroke="#526780" stroke-width="2"/>
+<text x="265" y="160" dominant-baseline="text-before-edge" fill="#526780" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bootloader</text>
+<text x="690" y="170" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Keep intact; encoder LOW 500 ms selects App1</text>
+<text x="60" y="264" dominant-baseline="text-before-edge" fill="#526780" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0x008000</text>
+<rect x="245" y="245" width="1280" height="80" rx="12" fill="#f3f7fb" stroke="#526780" stroke-width="2"/>
+<text x="265" y="255" dominant-baseline="text-before-edge" fill="#526780" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Partition table</text>
+<text x="690" y="265" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Fixed layout; CSV is for App0 compilation only</text>
+<text x="60" y="359" dominant-baseline="text-before-edge" fill="#526780" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0x009000</text>
+<rect x="245" y="340" width="1280" height="80" rx="12" fill="#f3f7fb" stroke="#526780" stroke-width="2"/>
+<text x="265" y="350" dominant-baseline="text-before-edge" fill="#526780" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">NVS / 20 KiB</text>
+<text x="690" y="360" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Runtime data; size 0x5000</text>
+<text x="60" y="454" dominant-baseline="text-before-edge" fill="#526780" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0x00E000</text>
+<rect x="245" y="435" width="1280" height="80" rx="12" fill="#f3f7fb" stroke="#526780" stroke-width="2"/>
+<text x="265" y="445" dominant-baseline="text-before-edge" fill="#526780" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">OTA data / 8 KiB</text>
+<text x="690" y="455" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Boot-selection records; managed by OTA APIs</text>
+<text x="60" y="549" dominant-baseline="text-before-edge" fill="#007fbd" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0x010000</text>
+<rect x="245" y="530" width="1280" height="80" rx="12" fill="#f3f7fb" stroke="#007fbd" stroke-width="2"/>
+<text x="265" y="540" dominant-baseline="text-before-edge" fill="#007fbd" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">App0 / 2 MiB [update]</text>
+<text x="690" y="550" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Wi-Fi application target; BIN &lt;= 0x200000</text>
+<text x="60" y="644" dominant-baseline="text-before-edge" fill="#7054c8" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0x210000</text>
+<rect x="245" y="625" width="1280" height="80" rx="12" fill="#f3f7fb" stroke="#7054c8" stroke-width="2"/>
+<text x="265" y="635" dominant-baseline="text-before-edge" fill="#7054c8" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">App1 / 2 MiB [keep]</text>
+<text x="690" y="645" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Preinstalled Wi-Fi uploader; use, do not replace</text>
+<text x="60" y="739" dominant-baseline="text-before-edge" fill="#087e65" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0x410000</text>
+<rect x="245" y="720" width="1280" height="80" rx="12" fill="#f3f7fb" stroke="#087e65" stroke-width="2"/>
+<text x="265" y="730" dominant-baseline="text-before-edge" fill="#087e65" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">LittleFS / 10.9375 MiB</text>
+<text x="690" y="740" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Resources/settings; SF2 replaceable, no FS image upload</text>
+<text x="60" y="834" dominant-baseline="text-before-edge" fill="#526780" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0xF00000</text>
+<rect x="245" y="815" width="1280" height="80" rx="12" fill="#f3f7fb" stroke="#526780" stroke-width="2"/>
+<text x="265" y="825" dominant-baseline="text-before-edge" fill="#526780" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Coredump / 64 KiB</text>
+<text x="690" y="835" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">0x10000; 0xF10000-0xFFFFFF unallocated</text>
+<text x="60" y="940" dominant-baseline="text-before-edge" fill="#172c45" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">App0: Wi-Fi BIN -&gt; LittleFS staging -&gt; App0 write/validation -&gt; select App0 -&gt; restart</text>
+<text x="60" y="985" dominant-baseline="text-before-edge" fill="#526780" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">SF2: Wi-Fi SF2 -&gt; replace sound resources -&gt; restart; application and SF2 budgets are separate.</text>
+</svg>

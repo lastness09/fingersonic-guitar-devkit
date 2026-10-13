@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1400" viewBox="0 0 1600 1400" role="img"><title>01  Front Controls and Hardware Interfaces</title><desc>Upright view: logo at top, strings vertical. E = MPR121 electrode; GPIO = ESP32-S3 pin.</desc><rect width="100%" height="100%" fill="white"/>
+<text x="44" y="25" dominant-baseline="text-before-edge" fill="#172c45" font-size="36" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">01  Front Controls and Hardware Interfaces</text>
+<text x="44" y="80" dominant-baseline="text-before-edge" fill="#526780" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Upright view: logo at top, strings vertical. E = MPR121 electrode; GPIO = ESP32-S3 pin.</text>
+<rect x="555" y="145" width="490" height="1130" rx="35" fill="#edf2f6" stroke="#172c45" stroke-width="2"/>
+<text x="588" y="170" dominant-baseline="text-before-edge" fill="#172c45" font-size="34" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Fingersonic</text>
+<rect x="580" y="235" width="175" height="180" rx="12" fill="white" stroke="#172c45" stroke-width="2"/>
+<circle cx="666" cy="320" r="50" fill="#dae5ed" stroke="#172c45" stroke-width="2"/>
+<circle cx="666" cy="320" r="24" fill="#607c92" stroke="#172c45" stroke-width="2"/>
+<rect x="770" y="235" width="250" height="250" rx="12" fill="white" stroke="#172c45" stroke-width="2"/>
+<circle cx="895" cy="360" r="97" fill="#dceee9" stroke="#087e65" stroke-width="2"/>
+<circle cx="895" cy="360" r="59" fill="#becfd7" stroke="#172c45" stroke-width="2"/>
+<rect x="580" y="435" width="175" height="190" rx="12" fill="#172c45" stroke="#172c45" stroke-width="2"/>
+<text x="606" y="505" dominant-baseline="text-before-edge" fill="white" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">160 x 80</text>
+<rect x="770" y="505" width="250" height="65" rx="12" fill="white" stroke="#172c45" stroke-width="2"/>
+<circle cx="790" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="807" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="824" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="841" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="858" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="875" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="892" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="909" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="926" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="943" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="960" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="977" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="994" cy="520" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="790" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="807" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="824" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="841" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="858" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="875" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="892" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="909" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="926" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="943" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="960" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="977" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="994" cy="532" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="790" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="807" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="824" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="841" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="858" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="875" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="892" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="909" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="926" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="943" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="960" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="977" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="994" cy="544" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="790" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="807" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="824" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="841" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="858" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="875" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="892" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="909" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="926" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="943" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="960" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="977" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<circle cx="994" cy="556" r="3" fill="#8798a5" stroke="#8798a5" stroke-width="2"/>
+<rect x="770" y="590" width="123" height="58" rx="12" fill="#e8f4ff" stroke="#007fbd" stroke-width="2"/>
+<rect x="895" y="590" width="125" height="58" rx="12" fill="#e8f4ff" stroke="#007fbd" stroke-width="2"/>
+<text x="793" y="604" dominant-baseline="text-before-edge" fill="#007fbd" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">E2 Down</text>
+<text x="919" y="604" dominant-baseline="text-before-edge" fill="#007fbd" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">E5 Up</text>
+<rect x="580" y="675" width="440" height="355" rx="12" fill="white" stroke="#172c45" stroke-width="2"/>
+<polyline points="606,690 606,1013" fill="none" stroke="#90a5b5" stroke-width="7"/>
+<polyline points="684,690 684,1013" fill="none" stroke="#90a5b5" stroke-width="7"/>
+<polyline points="762,690 762,1013" fill="none" stroke="#90a5b5" stroke-width="7"/>
+<polyline points="840,690 840,1013" fill="none" stroke="#90a5b5" stroke-width="7"/>
+<polyline points="918,690 918,1013" fill="none" stroke="#90a5b5" stroke-width="7"/>
+<polyline points="996,690 996,1013" fill="none" stroke="#90a5b5" stroke-width="7"/>
+<text x="700" y="1050" dominant-baseline="text-before-edge" fill="#526780" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Six touch strings</text>
+<rect x="580" y="1110" width="219" height="90" rx="12" fill="#f0ebff" stroke="#7054c8" stroke-width="2"/>
+<rect x="801" y="1110" width="219" height="90" rx="12" fill="#f0ebff" stroke="#7054c8" stroke-width="2"/>
+<text x="605" y="1120" dominant-baseline="text-before-edge" fill="#7054c8" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Tempo / E9</text>
+<text x="833" y="1120" dominant-baseline="text-before-edge" fill="#7054c8" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Meter / E8</text>
+<text x="622" y="1162" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Left / O</text>
+<text x="851" y="1162" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Right / N</text>
+<rect x="44" y="240" width="390" height="142" rx="12" fill="#f2f6fa" stroke="#007fbd" stroke-width="2"/>
+<text x="64" y="254" dominant-baseline="text-before-edge" fill="#007fbd" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Encoder L</text>
+<text x="64" y="298" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">A/CLK GPIO38; B/DT GPIO39</text>
+<text x="64" y="332" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">SW GPIO47; pressed LOW</text>
+<polyline points="434,311 515,311 616,320" fill="none" stroke="#007fbd" stroke-width="3"/>
+<circle cx="616" cy="320" r="5" fill="#007fbd" stroke="#007fbd" stroke-width="2"/>
+<rect x="1110" y="245" width="440" height="172" rx="12" fill="#f2f6fa" stroke="#087e65" stroke-width="2"/>
+<text x="1130" y="259" dominant-baseline="text-before-edge" fill="#087e65" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Joystick G / LED ring F</text>
+<text x="1130" y="303" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">X GPIO6; Y GPIO5; SW GPIO7</text>
+<text x="1130" y="337" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">16 LEDs; DIN GPIO48</text>
+<text x="1130" y="371" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Switch LOW; pixel order GRB</text>
+<polyline points="1110,315 1070,315 954,360" fill="none" stroke="#087e65" stroke-width="3"/>
+<circle cx="954" cy="360" r="5" fill="#087e65" stroke="#087e65" stroke-width="2"/>
+<rect x="44" y="445" width="390" height="175" rx="12" fill="#f2f6fa" stroke="#007fbd" stroke-width="2"/>
+<text x="64" y="459" dominant-baseline="text-before-edge" fill="#007fbd" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Display M</text>
+<text x="64" y="503" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">SCLK13; MOSI14; CS10</text>
+<text x="64" y="537" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">DC18; RESET21; BL9</text>
+<text x="64" y="571" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">ST7735S; landscape 160 x 80</text>
+<polyline points="434,530 515,530 580,530" fill="none" stroke="#007fbd" stroke-width="3"/>
+<circle cx="580" cy="530" r="5" fill="#007fbd" stroke="#007fbd" stroke-width="2"/>
+<rect x="1110" y="480" width="440" height="172" rx="12" fill="#f2f6fa" stroke="#007fbd" stroke-width="2"/>
+<text x="1130" y="494" dominant-baseline="text-before-edge" fill="#007fbd" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Pitch / drum pads I, J</text>
+<text x="1130" y="538" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Below speaker, above strings</text>
+<text x="1130" y="572" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Left Down / J / E2: Kick 36</text>
+<text x="1130" y="606" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Right Up / I / E5: Snare 38</text>
+<polyline points="1110,590 1075,590 1010,619" fill="none" stroke="#007fbd" stroke-width="3"/>
+<circle cx="1010" cy="619" r="5" fill="#007fbd" stroke="#007fbd" stroke-width="2"/>
+<rect x="44" y="745" width="390" height="206" rx="12" fill="#f2f6fa" stroke="#526780" stroke-width="2"/>
+<text x="64" y="759" dominant-baseline="text-before-edge" fill="#526780" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Touch strings K</text>
+<text x="64" y="803" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">String 6 -&gt; 1: E A D G B E</text>
+<text x="64" y="837" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Electrodes: 1, 0, 3, 4, 6, 7</text>
+<text x="64" y="871" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Logical order, not photo positions</text>
+<text x="64" y="905" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Check each electrode separately</text>
+<polyline points="434,835 525,835 580,835" fill="none" stroke="#526780" stroke-width="3"/>
+<circle cx="580" cy="835" r="5" fill="#526780" stroke="#526780" stroke-width="2"/>
+<rect x="1110" y="1050" width="440" height="172" rx="12" fill="#f2f6fa" stroke="#7054c8" stroke-width="2"/>
+<text x="1130" y="1064" dominant-baseline="text-before-edge" fill="#7054c8" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Strum pads N, O</text>
+<text x="1130" y="1108" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Below strings</text>
+<text x="1130" y="1142" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Left Tempo / O / E9: tap BPM</text>
+<text x="1130" y="1176" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Right Meter / N / E8: hold select</text>
+<polyline points="1110,1160 1065,1160 1008,1155" fill="none" stroke="#7054c8" stroke-width="3"/>
+<circle cx="1008" cy="1155" r="5" fill="#7054c8" stroke="#7054c8" stroke-width="2"/>
+<text x="44" y="1300" dominant-baseline="text-before-edge" fill="#172c45" font-size="25" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Side interfaces: USB-C (charging / USB MIDI), 3.5mm audio, power button and strap slots.</text>
+<text x="44" y="1342" dominant-baseline="text-before-edge" fill="#526780" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Functional diagram using one consistent upright view. Dimensions are not for manufacturing.</text>
+</svg>

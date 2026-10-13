@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940" role="img"><title>04  Cold-Start Recovery and Soft-Power State</title><desc>Hold the encoder before a true cold start. Charging standby and soft-power release are not the same boot stage.</desc><rect width="100%" height="100%" fill="white"/>
+<text x="44" y="25" dominant-baseline="text-before-edge" fill="#172c45" font-size="36" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">04  Cold-Start Recovery and Soft-Power State</text>
+<text x="44" y="80" dominant-baseline="text-before-edge" fill="#526780" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Hold the encoder before a true cold start. Charging standby and soft-power release are not the same boot stage.</text>
+<rect x="50" y="180" width="315" height="138" rx="12" fill="#f2f6fa" stroke="#007fbd" stroke-width="2"/>
+<text x="70" y="194" dominant-baseline="text-before-edge" fill="#007fbd" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">True cold start/reset</text>
+<text x="70" y="238" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Preinstalled bootloader</text>
+<text x="70" y="272" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Samples GPIO47</text>
+<rect x="510" y="155" width="490" height="172" rx="12" fill="#f2f6fa" stroke="#7054c8" stroke-width="2"/>
+<text x="530" y="169" dominant-baseline="text-before-edge" fill="#7054c8" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">GPIO47 LOW for 500 ms</text>
+<text x="530" y="213" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Select existing App1 once</text>
+<text x="530" y="247" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Entry does not rewrite boot record</text>
+<text x="530" y="281" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">App1 and partition table must be valid</text>
+<polyline points="365,230 510,230" fill="none" stroke="#007fbd" stroke-width="4"/>
+<polygon points="510,230 497.39374056706254,236.08951747755722 497.39374056706254,223.91048252244278" fill="#007fbd"/>
+<rect x="1150" y="155" width="400" height="172" rx="12" fill="#f2f6fa" stroke="#7054c8" stroke-width="2"/>
+<text x="1170" y="169" dominant-baseline="text-before-edge" fill="#7054c8" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">App1 READY</text>
+<text x="1170" y="213" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Wi-Fi Fingersonic; /upload</text>
+<text x="1170" y="247" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">BIN -&gt; App0; SF2 -&gt; resources</text>
+<text x="1170" y="281" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Return to App0 after update</text>
+<polyline points="1000,230 1150,230" fill="none" stroke="#7054c8" stroke-width="4"/>
+<polygon points="1150,230 1137.3937405670624,236.08951747755722 1137.3937405670624,223.91048252244278" fill="#7054c8"/>
+<rect x="510" y="385" width="490" height="150" rx="12" fill="#f2f6fa" stroke="#007fbd" stroke-width="2"/>
+<text x="530" y="399" dominant-baseline="text-before-edge" fill="#007fbd" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Encoder not held: normal boot</text>
+<text x="530" y="443" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Follow stored application selection</text>
+<text x="530" y="477" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">App0 shown as the example below</text>
+<polyline points="207,310 207,455 510,455" fill="none" stroke="#007fbd" stroke-width="4"/>
+<polygon points="510,455 497.39374056706254,461.08951747755725 497.39374056706254,448.91048252244275" fill="#007fbd"/>
+<rect x="50" y="655" width="390" height="172" rx="12" fill="#f2f6fa" stroke="#087e65" stroke-width="2"/>
+<text x="70" y="669" dominant-baseline="text-before-edge" fill="#087e65" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">App0 standby</text>
+<text x="70" y="713" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Filesystem, display, battery</text>
+<text x="70" y="747" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">GPIO8 millivolts every 100 ms</text>
+<text x="70" y="781" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Default logo: 5 s, then battery</text>
+<polyline points="755,535 755,596 240,596 240,655" fill="none" stroke="#007fbd" stroke-width="4"/>
+<polygon points="240,655 233.91048252244278,642.3937405670625 246.08951747755722,642.3937405670625" fill="#007fbd"/>
+<rect x="585" y="655" width="450" height="172" rx="12" fill="#f2f6fa" stroke="#087e65" stroke-width="2"/>
+<text x="605" y="669" dominant-baseline="text-before-edge" fill="#087e65" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Initialize full runtime</text>
+<text x="605" y="713" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">GPIO8 &gt;=2600 mV for 100 ms</text>
+<text x="605" y="747" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Start audio/touch/MIDI/LED</text>
+<text x="605" y="781" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Ignore brief startup-load dips</text>
+<polyline points="440,734 585,734" fill="none" stroke="#087e65" stroke-width="4"/>
+<polygon points="585,734 572.3937405670625,740.0895174775573 572.3937405670625,727.9104825224427" fill="#087e65"/>
+<rect x="1170" y="655" width="380" height="172" rx="12" fill="#f2f6fa" stroke="#087e65" stroke-width="2"/>
+<text x="1190" y="669" dominant-baseline="text-before-edge" fill="#087e65" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Running shutdown</text>
+<text x="1190" y="713" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">GPIO8 &lt;=2600 mV for 200 ms</text>
+<text x="1190" y="747" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Sound off, black LEDs, restart</text>
+<text x="1190" y="781" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Restart releases runtime tasks</text>
+<polyline points="1035,734 1170,734" fill="none" stroke="#087e65" stroke-width="4"/>
+<polygon points="1170,734 1157.3937405670624,740.0895174775573 1157.3937405670624,727.9104825224427" fill="#087e65"/>
+<text x="50" y="870" dominant-baseline="text-before-edge" fill="#172c45" font-size="24" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Share ADC locking with battery/joystick. Keep power waits and file writes out of the audio task.</text>
+</svg>

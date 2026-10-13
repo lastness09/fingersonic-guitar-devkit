@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img"><title>06  Recovery SF2 Presets and Performance Parts</title><desc>Fingersonic_Gtr_H.sf2 contains 7 presets. BIN updates App0; SF2 replaces sounds. Both upload through App1 Wi-Fi.</desc><rect width="100%" height="100%" fill="white"/>
+<text x="44" y="25" dominant-baseline="text-before-edge" fill="#172c45" font-size="36" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">06  Recovery SF2 Presets and Performance Parts</text>
+<text x="44" y="80" dominant-baseline="text-before-edge" fill="#526780" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Fingersonic_Gtr_H.sf2 contains 7 presets. BIN updates App0; SF2 replaces sounds. Both upload through App1 Wi-Fi.</text>
+<rect x="60" y="150" width="550" height="425" rx="12" fill="#f2f6fa" stroke="#007fbd" stroke-width="2"/>
+<text x="80" y="164" dominant-baseline="text-before-edge" fill="#007fbd" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Included recovery bank</text>
+<text x="80" y="208" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bank 0 / Program 0: Steel Gtr</text>
+<text x="80" y="242" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bank 0 / Program 1: Funk Gtr</text>
+<text x="80" y="276" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bank 0 / Program 2: Jazz Gtr</text>
+<text x="80" y="310" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bank 0 / Program 3: Mute Gtr</text>
+<text x="80" y="344" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bank 0 / Program 4: Overd. Gtr</text>
+<text x="80" y="378" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif"></text>
+<text x="80" y="412" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bank 128 / Program 0: Standard Kit</text>
+<text x="80" y="446" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bank 128 / Program 1: Piano</text>
+<rect x="810" y="150" width="720" height="172" rx="12" fill="#f2f6fa" stroke="#007fbd" stroke-width="2"/>
+<text x="830" y="164" dominant-baseline="text-before-edge" fill="#007fbd" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Live and accompaniment guitars</text>
+<text x="830" y="208" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Live MIDI Ch 1; automatic guitar Ch 2</text>
+<text x="830" y="242" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Bank 0, currently selected Program 0-4</text>
+<text x="830" y="276" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Independent note releases, same guitar timbre</text>
+<polyline points="610,222 810,222" fill="none" stroke="#007fbd" stroke-width="4"/>
+<polygon points="810,222 797.3937405670625,228.08951747755722 797.3937405670625,215.91048252244278" fill="#007fbd"/>
+<rect x="810" y="350" width="720" height="172" rx="12" fill="#f2f6fa" stroke="#7054c8" stroke-width="2"/>
+<text x="830" y="364" dominant-baseline="text-before-edge" fill="#7054c8" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Drum part</text>
+<text x="830" y="408" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">MIDI Ch 10 -&gt; Bank 128 / Program 0</text>
+<text x="830" y="442" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Note 36 Kick; Note 38 Snare; Note 42 Hi-Hat</text>
+<text x="830" y="476" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Preserve these keys for patterns/drum pads</text>
+<polyline points="610,444 730,444 730,426 810,426" fill="none" stroke="#7054c8" stroke-width="4"/>
+<polygon points="810,426 797.3937405670625,432.08951747755725 797.3937405670625,419.91048252244275" fill="#7054c8"/>
+<rect x="810" y="550" width="720" height="172" rx="12" fill="#f2f6fa" stroke="#087e65" stroke-width="2"/>
+<text x="830" y="564" dominant-baseline="text-before-edge" fill="#087e65" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Piano and lead/melody roles</text>
+<text x="830" y="608" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">MIDI Ch 11 -&gt; Bank 128 / Program 1: Piano</text>
+<text x="830" y="642" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">No separate Lead preset in this supplied bank</text>
+<text x="830" y="676" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">A lead role uses an application-selected instrument</text>
+<polyline points="610,493 710,493 710,625 810,625" fill="none" stroke="#087e65" stroke-width="4"/>
+<polygon points="810,625 797.3937405670625,631.0895174775573 797.3937405670625,618.9104825224427" fill="#087e65"/>
+<rect x="60" y="750" width="1470" height="172" rx="12" fill="#f2f6fa" stroke="#526780" stroke-width="2"/>
+<text x="80" y="764" dominant-baseline="text-before-edge" fill="#526780" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">User-replaceable sound resources</text>
+<text x="80" y="808" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">One SF2 contains multiple presets. Refresh the program catalog when changing to another bank.</text>
+<text x="80" y="842" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Keep Bank 0, Bank 128/P0 drums and Bank 128/P1 melody for default-app compatibility.</text>
+<text x="80" y="876" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Recovery restores sound resources only; restoring default App0 requires its separate application BIN.</text>
+</svg>

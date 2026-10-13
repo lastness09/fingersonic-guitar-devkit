@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080" role="img"><title>03  Slider Electrodes, Left/Right Positions and Gestures</title><desc>Upright view. Each group contains two discrete electrodes, not a continuous position sensor.</desc><rect width="100%" height="100%" fill="white"/>
+<text x="44" y="25" dominant-baseline="text-before-edge" fill="#172c45" font-size="36" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">03  Slider Electrodes, Left/Right Positions and Gestures</text>
+<text x="44" y="80" dominant-baseline="text-before-edge" fill="#526780" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Upright view. Each group contains two discrete electrodes, not a continuous position sensor.</text>
+<rect x="60" y="160" width="480" height="210" rx="12" fill="#f2f6fa" stroke="#007fbd" stroke-width="2"/>
+<text x="80" y="174" dominant-baseline="text-before-edge" fill="#007fbd" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Pitch / Drum Pad</text>
+<text x="80" y="218" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Below speaker, above strings</text>
+<text x="80" y="252" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Manual labels I/J</text>
+<text x="80" y="286" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">I2C SDA GPIO11 / SCL GPIO12</text>
+<text x="80" y="320" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Horizontal Top/Up = upright right</text>
+<rect x="620" y="165" width="390" height="190" rx="12" fill="#e8f4ff" stroke="#007fbd" stroke-width="2"/>
+<rect x="1015" y="165" width="390" height="190" rx="12" fill="#e8f4ff" stroke="#007fbd" stroke-width="2"/>
+<text x="655" y="192" dominant-baseline="text-before-edge" fill="#007fbd" font-size="31" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Left: Down / J / E2</text>
+<text x="655" y="248" dominant-baseline="text-before-edge" fill="#172c45" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">MPR121 electrode E2</text>
+<text x="655" y="292" dominant-baseline="text-before-edge" fill="#172c45" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Drum: Kick / MIDI Note 36</text>
+<text x="1050" y="192" dominant-baseline="text-before-edge" fill="#007fbd" font-size="31" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Right: Up / I / E5</text>
+<text x="1050" y="248" dominant-baseline="text-before-edge" fill="#172c45" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">MPR121 electrode E5</text>
+<text x="1050" y="292" dominant-baseline="text-before-edge" fill="#172c45" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Drum: Snare / MIDI Note 38</text>
+<polyline points="680,410 1350,410" fill="none" stroke="#007fbd" stroke-width="4"/>
+<polygon points="1350,410 1337.3937405670624,416.08951747755725 1337.3937405670624,403.91048252244275" fill="#007fbd"/>
+<text x="770" y="425" dominant-baseline="text-before-edge" fill="#007fbd" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Left -&gt; right, E2 -&gt; E5: +8191</text>
+<polyline points="1350,495 680,495" fill="none" stroke="#007fbd" stroke-width="4"/>
+<polygon points="680,495 692.6062594329375,488.91048252244275 692.6062594329375,501.08951747755725" fill="#007fbd"/>
+<text x="770" y="509" dominant-baseline="text-before-edge" fill="#007fbd" font-size="26" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Right -&gt; left, E5 -&gt; E2: -8191</text>
+<text x="620" y="557" dominant-baseline="text-before-edge" fill="#526780" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Sequence: 700 ms; bend/return: 500 ms; both released: center 0</text>
+<rect x="60" y="650" width="480" height="218" rx="12" fill="#f2f6fa" stroke="#7054c8" stroke-width="2"/>
+<text x="80" y="664" dominant-baseline="text-before-edge" fill="#7054c8" font-size="27" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Strum / Rhythm</text>
+<text x="80" y="708" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Below strings; labels N/O</text>
+<text x="80" y="742" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Left: Tempo; right: Meter/pattern</text>
+<text x="80" y="776" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Both read through MPR121</text>
+<text x="80" y="810" dominant-baseline="text-before-edge" fill="#172c45" font-size="22" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Controls may be redefined in App0</text>
+<rect x="620" y="650" width="390" height="182" rx="12" fill="#f0ebff" stroke="#7054c8" stroke-width="2"/>
+<rect x="1015" y="650" width="390" height="182" rx="12" fill="#f0ebff" stroke="#7054c8" stroke-width="2"/>
+<text x="655" y="672" dominant-baseline="text-before-edge" fill="#7054c8" font-size="31" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Left: Tempo / O / E9</text>
+<text x="655" y="725" dominant-baseline="text-before-edge" fill="#172c45" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">MPR121 electrode E9</text>
+<text x="655" y="770" dominant-baseline="text-before-edge" fill="#172c45" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">At least 3 valid taps: BPM</text>
+<text x="1050" y="672" dominant-baseline="text-before-edge" fill="#7054c8" font-size="31" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Right: Meter / N / E8</text>
+<text x="1050" y="725" dominant-baseline="text-before-edge" fill="#172c45" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">MPR121 electrode E8</text>
+<text x="1050" y="770" dominant-baseline="text-before-edge" fill="#172c45" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Hold 2 s: select pattern</text>
+<polyline points="690,885 1340,885" fill="none" stroke="#7054c8" stroke-width="4"/>
+<polygon points="1340,885 1327.3937405670624,891.0895174775573 1327.3937405670624,878.9104825224427" fill="#7054c8"/>
+<polyline points="1340,936 690,936" fill="none" stroke="#7054c8" stroke-width="4"/>
+<polygon points="690,936 702.6062594329375,929.9104825224427 702.6062594329375,942.0895174775573" fill="#7054c8"/>
+<text x="730" y="965" dominant-baseline="text-before-edge" fill="#7054c8" font-size="23" font-family="Segoe UI,Arial,DejaVu Sans,sans-serif">Either direction can form a Strum gesture; sequence window 700 ms</text>
+</svg>

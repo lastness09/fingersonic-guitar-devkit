@@ -1,0 +1,9 @@
+# App0 compilation configuration only. Install only the App0 application BIN via Wi-Fi.
+# Do not change or write the bootloader, App1, partition table or filesystem image.
+#Name,Type,SubType,Offset,Size,Flags
+nvs,data,nvs,0x9000,0x5000,
+otadata,data,ota,0xE000,0x2000,
+app0,app,ota_0,0x10000,0x200000,encrypted
+app1,app,ota_1,0x210000,0x200000,encrypted
+spiffs,data,spiffs,0x410000,0xAF0000,encrypted
+coredump,data,coredump,0xF00000,0x10000,

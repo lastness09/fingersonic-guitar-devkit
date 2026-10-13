@@ -1,0 +1,38 @@
+Board,Subsystem,Signal,GPIO,Connected To,Notes
+S3,Audio,I2S_BCLK,40,PCM5102-family DAC BCLK,I2S output
+S3,Audio,I2S_DOUT,41,PCM5102-family DAC DIN,I2S output
+S3,Audio,I2S_WCLK,42,PCM5102-family DAC LRCLK,I2S output
+S3,LED Ring,LED_DIN,48,WS2812-type DIN,16 LEDs; GRB order
+S3,MPR121 I2C,MPR121_SDA,11,MPR121 SDA,3.3V I2C
+S3,MPR121 I2C,MPR121_SCL,12,MPR121 SCL,400kHz I2C
+S3,Encoder,ENCODER_CLK,38,Encoder CLK,Input pullup
+S3,Encoder,ENCODER_DT,39,Encoder DT,Input pullup
+S3,Encoder,ENCODER_SW,47,Encoder switch,Switch to GND
+S3,Joystick,JOYSTICK_X,6,Joystick VRx,ADC1 input
+S3,Joystick,JOYSTICK_Y,5,Joystick VRy,ADC1 input
+S3,Joystick,JOYSTICK_SW,7,Joystick switch,Switch to GND
+S3,TFT,TFT_SCLK,13,TFT SCLK,SPI clock output
+S3,TFT,TFT_MOSI,14,TFT MOSI/SDA,SPI data output
+S3,TFT,TFT_CS,10,TFT CS,Chip select
+S3,TFT,TFT_DC,18,TFT DC/RS,Data/command selection
+S3,TFT,TFT_RST,21,TFT RESET,Active LOW reset
+S3,TFT,TFT_BL,9,TFT backlight,HIGH enabled
+S3,Battery,BAT_ADC,1,200K/100K divider midpoint,ADC1 input
+S3,Charge Status,CHRG,2,Charger CHRG,Digital input
+S3,Charge Status,STDBY,4,Charger STDBY,Digital input
+S3,Soft Power,POWER_STATE,8,3.3V power-state signal,ADC with pulldown; ON >=2600mV for 100ms; runtime OFF <=2600mV for 200ms
+S3,MPR121 Electrode,String6,E1,String 6 touch electrode,Open MIDI note 40
+S3,MPR121 Electrode,String5,E0,String 5 touch electrode,Open MIDI note 45
+S3,MPR121 Electrode,String4,E3,String 4 touch electrode,Open MIDI note 50
+S3,MPR121 Electrode,String3,E4,String 3 touch electrode,Open MIDI note 55
+S3,MPR121 Electrode,String2,E6,String 2 touch electrode,Open MIDI note 59
+S3,MPR121 Electrode,String1,E7,String 1 touch electrode,Open MIDI note 64
+S3,MPR121 Electrode,STRUM_UP,E8,Upright right Meter pad,Label N; 2s hold selects rhythm
+S3,MPR121 Electrode,STRUM_DOWN,E9,Upright left Tempo pad,Label O; tap measures BPM
+S3,MPR121 Electrode,PITCH_TOP,E5,Upright right Up pad,Label I; snare note 38
+S3,MPR121 Electrode,PITCH_BOTTOM,E2,Upright left Down pad,Label J; kick note 36
+System,Power,BAT+,N/A,200K resistor then S3 GPIO1,Single-cell Li-ion
+System,Power,Divider Bottom,N/A,100K from GPIO1 node to GND,Vbat equals Vadc times 3
+System,Power,Divider Filter,N/A,0.1uF from GPIO1 node to GND,Recommended
+System,Power,TFT_VCC,N/A,S3 3.3V,Do not use 5V logic
+System,Interconnect,GND_COMMON,N/A,S3 TFT battery charger and controls,Required common ground
