@@ -10,6 +10,14 @@ Download the entire kit with GitHub's **Code → Download ZIP**, or clone this r
 
 ![Fingersonic front controls](docs/developer/assets/controls-front.png)
 
+## Custom firmware demo
+
+[Watch the custom firmware demo on YouTube Shorts](https://youtube.com/shorts/IivDG06t62U?feature=share).
+
+See an example of what you can create with your own App0 firmware. Use it as inspiration for your own instrument or controller. The [main2 reference/test project](examples/main2/README.md) provides source code to explore and modify; it is not official Fingersonic Guitar firmware.
+
+## Explore the developer kit
+
 | Document | Content |
 |---|---|
 | [Development guide](FIRMWARE_DEVELOPMENT_GUIDE.md) | GPIO, electrodes, power, DAC, LEDs, display, development platforms and Wi-Fi uploads |

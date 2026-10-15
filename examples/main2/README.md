@@ -6,6 +6,12 @@ An open-source App0 reference application for Fingersonic Guitar: a playable FM 
 
 This is a complete Arduino sketch. Open **main2.ino** with its accompanying files, or build the directory with Arduino CLI. The source is self-contained apart from the public libraries listed below. Audio is generated in software; this example does not load SF2 files or mount LittleFS. Its settings use the dedicated NVS namespace `fsg-fm`.
 
+## Custom firmware demo
+
+[Watch the custom firmware demo on YouTube Shorts](https://youtube.com/shorts/IivDG06t62U?feature=share).
+
+The video illustrates the kind of experience you can create with self-built App0 firmware. Use it as inspiration when exploring and modifying this reference/test project.
+
 ![FM Studio host-rendered user interface](assets/ui-preview.png)
 
 Host-rendered views from the same UI layout functions used by the firmware.
