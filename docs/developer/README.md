@@ -17,6 +17,7 @@ Start with the GPIO/electrode map, integrate the public API snippets, verify inp
 | [Dependency versions](DEPENDENCIES.md) | Public Arduino/IDF library baseline |
 | [API examples](EXAMPLES.md) | ADC, MPR121, I2S, TFT and App1 entry |
 | [FM Studio main2](../../examples/main2/README.md) | Buildable reference/test example; not official product firmware |
+| [Pea Defense](../../examples/main3/README.md) | Buildable six-lane arcade game reference/test example; not official product firmware |
 | [Optional app protocol](APP_INTERACTION.md) | Symbols, settings, custom chords, follow and receipts |
 | [SF2 guide](SOUNDFONT.md) | Guitar/drum/piano layout, Lead roles and replacement rules |
 | [Recovery bank](../../recovery/README.md) | Fingersonic_Gtr_H.sf2 and checksum |

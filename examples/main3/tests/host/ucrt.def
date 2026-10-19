@@ -1,0 +1,6 @@
+LIBRARY ucrtbase.dll
+EXPORTS
+ memcpy
+ memset
+ strlen
+ __stdio_common_vsprintf

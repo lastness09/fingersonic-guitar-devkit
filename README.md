@@ -25,6 +25,7 @@ See an example of what you can create with your own App0 firmware. Use it as ins
 | [SoundFont guide](docs/developer/SOUNDFONT.md) | Exact guitar/drum/piano presets, Lead roles and replacement compatibility |
 | [Public API examples](docs/developer/EXAMPLES.md) | Arduino/Adafruit/IDF snippets without manufacturer-private source dependencies |
 | [main2 reference/test example](examples/main2/README.md) | Open-source FM Studio development example, not official product firmware or a recovery image |
+| [Pea Defense reference/test example](examples/main3/README.md) | Open-source six-lane touch-string arcade game, with controls, build steps and Wi-Fi recovery |
 | [Dependencies](docs/developer/DEPENDENCIES.md) | Public libraries, versions and installation |
 | [GPIO table](PCB_GPIO_Pinout.md) · [CSV](PCB_GPIO_Pinout.csv) | Wiring and MPR121 electrode mapping |
 | [Partition CSV](docs/developer/partitions.csv) | App0 compilation layout; not a system flashing image |
